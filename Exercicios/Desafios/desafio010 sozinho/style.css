@@ -1,0 +1,92 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'android';
+    src: url('idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #84E1AD;
+}
+
+header {
+    color: white;
+    background-image: linear-gradient(to top, #1A5C38, #3CD680);
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.281);
+}
+
+
+
+div#text-content {
+    text-align: center;
+    margin-bottom: 2em;
+    padding-top: 2em;
+}
+
+div#text-content > h1 {
+    font-size: 3em;
+    font-style: normal;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.445);
+}
+
+div#text-content > p {
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.445);    
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding: 7px 20px 1px 20px;
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.445);
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+nav > a:hover {
+    background-color: rgba(211, 211, 211, 0.322);
+}
+
+main {
+    background-color: white;
+    width: 90em;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.281);
+}
+
+main > h2 {
+    font-family: 'android';
+    padding: 20px;
+    color: #165834;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.445);
+    font-size: 3em;
+}
+
+.primeira-frase {
+    text-indent: 20px;
+    padding: 20px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.sub-titulo1 {
+    color: #165834;
+    font-size: 25px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.445);
+    padding: 0px 20px;
+    font-family: 'android';
+    background-image: linear-gradient(to right, #84e1acb6, rgba(0, 128, 0, 0));
+    width: 30rem;
+    margin: 20px;
+}
